@@ -1,0 +1,408 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		<title> Wikipedia </title>
+		<link rel="icon" type="image/x-icon" href="C:/Users/user/Desktop/Programs/Wikipedia_samp/root/images/wikipedia.jpg">
+		<link rel="stylesheet" href="C:/Users/user/Desktop/Programs/Wikipedia_samp/root/css/main.css">
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+		<style>
+			/* width */
+		::-webkit-scrollbar {
+		  width: 15px;
+		}
+
+
+
+		/* Handle */
+		::-webkit-scrollbar-thumb {
+		  background: #d3d3d3;
+		  
+		}
+		</style>
+	</head>
+	<body>
+		
+		<div id="header" class="nav">
+			<img id="logo-wiki" src="C:/Users/user/Desktop/Programs/Wikipedia_samp/root/images/wikipedia.jpg">
+			<div id="title-wiki"> WIKIPEDIA </div>
+			<input id="search-input" placeholder="Search">
+			<img id="search-button" src="C:/Users/user/Desktop/Programs/Wikipedia_samp/root/images/search-black.png">
+			<span id="mode">
+				Dark Mode &nbsp; 
+				<input type="checkbox" id="mode-checkbox" onclick="mode(this)">				
+			</span>
+		</div>
+		
+		<div id="sidebar">
+			<div id="title-char">Menu</div>
+			<hr>
+			<div id="title-char"><a onclick="gothere(this)">Home</a></div>
+			<div id="title-char"><a onclick="gothere(this)">Personal Life</a> </div>
+			<div id="title-char"><a onclick="gothere(this)">Career </a></div>
+			<div id="title-char"><a onclick="gothere(this)">Filmography </a></div>
+		</div>
+		
+		<div id="content">
+			
+			<div id="image-box">
+				<div style="margin:5px;width:100%;text-align:center;font-weight:bold;">Timothée Chalamet</div>
+				<img id="image-char" src="C:/Users/user/Desktop/Programs/Wikipedia_samp/root/images/tchalamet.jpg">
+				<table>
+					<tr>
+						<th style="padding-right:15px; vertical-align:top;">
+							Born
+						</th>
+						<td>
+							Timothée Hal Chalamet<br>
+							December 27, 1995 (age 27)<br>
+							New York City, U.S.<br>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							Awards
+						</th>
+						<td>
+							BAFTA Award<br>
+							Academy award for Best Actor
+						</td>
+					</tr>
+					<tr>
+						<th>
+							Occupation
+						</th>
+						<td>
+							Actor
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+			
+			<h1 id="title-Home" onclick="display(this)">Home</h1>
+			<hr>
+			<br>
+			<span id="Home">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Timothée Hal Chalamet (English: /ˈtɪməθi ˈʃæləmeɪ/ TIM-əth-ee SHAL-ə-may;[a] born December 27, 1995) is an American–French actor. He has received various accolades, including nominations for an Academy Award, two Golden Globe Awards, and three BAFTA Film Awards.<br><br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chalamet began his career as a teenager in television, appearing in the drama series Homeland in 2012. In 2014, he made his film debut in the comedy-drama Men, Women & Children and appeared in Christopher Nolan's science fiction film Interstellar. Chalamet came to international attention with the lead role of a lovestruck teenager in Luca Guadagnino's coming-of-age film Call Me by Your Name (2017), earning him a nomination for the Academy Award for Best Actor. Alongside supporting roles in Greta Gerwig's films Lady Bird (2017) and Little Women (2019), he took on starring roles as drug addict Nic Sheff in the biopic Beautiful Boy (2018) and a young cannibal in Guadagnino's romantic horror film Bones and All (2022), which he also produced. Chalamet also began leading big-budget films, portraying Paul Atreides in Denis Villeneuve's science fiction film Dune (2021).
+			</span>
+			
+			<br><br><br>
+			
+			<h1 id="title-Personal Life" onclick="display(this)">Personal Life</h1>
+			<hr>
+			<br>
+			<span id="PersonalLife">
+			<p>Chalamet splits his time between New York and California.<sup id="cite_ref-:1_142-0" class="reference"><a href="#cite_note-:1-142">[140]</a></sup><sup id="cite_ref-143" class="reference"><a href="#cite_note-143">[141]</a></sup> Despite significant media attention and public interest, he rarely discusses the romantic aspects of his personal life.<sup id="cite_ref-:0_138-1" class="reference"><a href="#cite_note-:0-138">[136]</a></sup>
+			</p>
+			<p>Chalamet is an avid sports fan; in his youth, he aspired to be a professional <a href="/wiki/Football_player" title="Football player">soccer player</a>.<sup id="cite_ref-Verge_19-3" class="reference"><a href="#cite_note-Verge-19">[17]</a></sup> He is a lifelong supporter of the <a href="/wiki/New_York_Knicks" title="New York Knicks">New York Knicks</a> and the French football team <a href="/wiki/AS_Saint-%C3%89tienne" title="AS Saint-Étienne">AS Saint-Étienne</a>.<sup id="cite_ref-144" class="reference"><a href="#cite_note-144">[142]</a></sup><sup id="cite_ref-145" class="reference"><a href="#cite_note-145">[143]</a></sup> He enjoys <a href="/wiki/Hip-hop_music" class="mw-redirect" title="Hip-hop music">hip-hop music</a><sup id="cite_ref-146" class="reference"><a href="#cite_note-146">[144]</a></sup> and considers rapper <a href="/wiki/Kid_Cudi" title="Kid Cudi">Kid Cudi</a> to be his biggest career inspiration.<sup id="cite_ref-GQ_6-5" class="reference"><a href="#cite_note-GQ-6">[5]</a></sup>
+			</p>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</span>
+			
+			<br><br><br>
+			
+			<h1 id="title-Career" onclick="display(this)">Career</h1>
+			<hr>
+			<br>
+			<span id="Career">
+			<h3><span id="2008.E2.80.932016:_Early_roles"></span><span class="mw-headline" id="2008–2016:_Early_roles">2008–2016: Early roles</span></h3>
+			<p>As a child, Chalamet appeared in several commercials and acted in two horror short films called <i>Sweet Tooth</i> and <i>Clown</i> before making his television debut on an episode of the long-running <a href="/wiki/Police_procedural" title="Police procedural">police procedural</a> series <i><a href="/wiki/Law_%26_Order" title="Law &amp; Order">Law &amp; Order</a></i> (2009), playing a murder victim.<sup id="cite_ref-Verge_19-2" class="reference"><a href="#cite_note-Verge-19">[17]</a></sup> He followed this with a minor role in the television film <i><a href="/wiki/Loving_Leah" title="Loving Leah">Loving Leah</a></i> (2009). In 2011, he made his stage debut in the <a href="/wiki/Off-Broadway" title="Off-Broadway">Off-Broadway</a> play <i>The Talls</i>, a <a href="/wiki/Coming-of-age_story" title="Coming-of-age story">coming-of-age</a> comedy set in the 1970s, in which he played a sexually curious 12-year-old. The chief theatre critic of <i><a href="/wiki/New_York_Daily_News" title="New York Daily News">New York Daily News</a></i> wrote, "Chalamet hilariously captures a tween's awakening curiosities about sex."<sup id="cite_ref-37" class="reference"><a href="#cite_note-37">[35]</a></sup><sup id="cite_ref-NYDN-TheTalls_38-0" class="reference"><a href="#cite_note-NYDN-TheTalls-38">[36]</a></sup> In 2012, he had recurring roles in the drama series <i><a href="/wiki/Royal_Pains" title="Royal Pains">Royal Pains</a></i> and the thriller series <i><a href="/wiki/Homeland_(TV_series)" title="Homeland (TV series)">Homeland</a></i>, in which he played <a href="/wiki/Finn_Walden" class="mw-redirect" title="Finn Walden">Finn Walden</a>, the rebellious son of the Vice President. Along with the rest of the cast, Chalamet was nominated for a <a href="/wiki/Screen_Actors_Guild_Award_for_Outstanding_Performance_by_an_Ensemble_in_a_Drama_Series" title="Screen Actors Guild Award for Outstanding Performance by an Ensemble in a Drama Series">SAG Award for Best Ensemble</a>.<sup id="cite_ref-39" class="reference"><a href="#cite_note-39">[37]</a></sup>
+			</p>
+			</span>
+			
+			<br><br><br>
+			
+			<h1 id="title-Filmography" onclick="display(this)">Filmography</h1>
+			<hr>
+			<span id="Filmography">
+			<br>
+			<table border="1px" id="table-Filmography">
+				<thead><tr>
+				<th scope="col" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Year
+				</th>
+				<th scope="col" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Title
+				</th>
+				<th scope="col" class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Role
+				</th>
+				<th scope="col" class="unsortable">Notes
+				</th>
+				<th scope="col" class="unsortable"><style data-mw-deduplicate="TemplateStyles:r1038841319">.mw-parser-output .tooltip-dotted{border-bottom:1px dotted;cursor:help}</style><span class="rt-commentedText tooltip tooltip-dotted" title="Reference(s)">Ref.</span>
+				</th></tr></thead><tbody>
+				<tr>
+				<th scope="row" rowspan="3">2014
+				</th>
+				<td><i><a href="/wiki/Men,_Women_%26_Children_(film)" title="Men, Women &amp; Children (film)">Men, Women &amp; Children</a></i>
+				</td>
+				<td><span data-sort-value="Vance&nbsp;!">Danny Vance</span>
+				</td>
+				<td>
+				</td>
+				<td><sup id="cite_ref-Metacritic-MenWomenChildren_40-1" class="reference"><a href="#cite_note-Metacritic-MenWomenChildren-40">[38]</a></sup>
+				</td></tr>
+				<tr>
+				<td><i><a href="/wiki/Interstellar_(film)" title="Interstellar (film)">Interstellar</a></i>
+				</td>
+				<td><span data-sort-value="Cooper, Tom&nbsp;!">Young Tom Cooper</span>
+				</td>
+				<td>
+				</td>
+				<td><sup id="cite_ref-TheWrap-Interstellar_41-1" class="reference"><a href="#cite_note-TheWrap-Interstellar-41">[39]</a></sup>
+				</td></tr>
+				<tr>
+				<td><i><a href="/wiki/Worst_Friends_(2014_film)" title="Worst Friends (2014 film)">Worst Friends</a></i>
+				</td>
+				<td><span data-sort-value="Sam&nbsp;!">Young Sam</span>
+				</td>
+				<td>
+				</td>
+				<td><sup id="cite_ref-RottenTomatoes-WorstFriends_45-1" class="reference"><a href="#cite_note-RottenTomatoes-WorstFriends-45">[43]</a></sup>
+				</td></tr>
+				<tr>
+				<th scope="row" rowspan="3">2015
+				</th>
+				<td><i><a href="/wiki/One_%26_Two" title="One &amp; Two">One &amp; Two</a></i>
+				</td>
+				<td>Zac
+				</td>
+				<td>
+				</td>
+				<td><sup id="cite_ref-Variety-OneTwo_46-1" class="reference"><a href="#cite_note-Variety-OneTwo-46">[44]</a></sup>
+				</td></tr>
+				<tr>
+				<td><i><span data-sort-value="Adderall&nbsp;!"><a href="/wiki/The_Adderall_Diaries_(film)" title="The Adderall Diaries (film)">The Adderall Diaries</a></span></i>
+				</td>
+				<td><span data-sort-value="Elliott&nbsp;!">Teenage Stephen Elliott</span>
+				</td>
+				<td>
+				</td>
+				<td><sup id="cite_ref-RottenTomatoes-AdderallDiaries_49-1" class="reference"><a href="#cite_note-RottenTomatoes-AdderallDiaries-49">[47]</a></sup>
+				</td></tr>
+				<tr>
+				<td><i><a href="/wiki/Love_the_Coopers" title="Love the Coopers">Love the Coopers</a></i>
+				</td>
+				<td><span data-sort-value="Cooper, Charlie&nbsp;!">Charlie Cooper</span>
+				</td>
+				<td>
+				</td>
+				<td><sup id="cite_ref-RottenTomatoes-LoveCoopers_50-1" class="reference"><a href="#cite_note-RottenTomatoes-LoveCoopers-50">[48]</a></sup>
+				</td></tr>
+				<tr>
+				<th scope="row">2016
+				</th>
+				<td><i><a href="/wiki/Miss_Stevens" title="Miss Stevens">Miss Stevens</a></i>
+				</td>
+				<td><span data-sort-value="Mitman&nbsp;!">Billy Mitman</span>
+				</td>
+				<td>
+				</td>
+				<td><sup id="cite_ref-HollywoodReporter-MissStevens_56-1" class="reference"><a href="#cite_note-HollywoodReporter-MissStevens-56">[54]</a></sup>
+				</td></tr>
+				<tr>
+				<th scope="row" rowspan="4">2017
+				</th>
+				<td><i><a href="/wiki/Call_Me_by_Your_Name_(film)" title="Call Me by Your Name (film)">Call Me by Your Name</a></i>
+				</td>
+				<td><span data-sort-value="Perlman&nbsp;!"><a href="/wiki/Elio_Perlman" class="mw-redirect" title="Elio Perlman">Elio Perlman</a></span>
+				</td>
+				<td>
+				</td>
+				<td><sup id="cite_ref-FilmStage-CMBYN_58-1" class="reference"><a href="#cite_note-FilmStage-CMBYN-58">[56]</a></sup>
+				</td></tr>
+				<tr>
+				<td><i><a href="/wiki/Hot_Summer_Nights_(film)" title="Hot Summer Nights (film)">Hot Summer Nights</a></i>
+				</td>
+				<td><span data-sort-value="Middleton&nbsp;!">Daniel Middleton</span>
+				</td>
+				<td>
+				</td>
+				<td><sup id="cite_ref-VF-HotSummerNights_76-1" class="reference"><a href="#cite_note-VF-HotSummerNights-76">[74]</a></sup>
+				</td></tr>
+				<tr>
+				<td><i><a href="/wiki/Lady_Bird_(film)" title="Lady Bird (film)">Lady Bird</a></i>
+				</td>
+				<td><span data-sort-value="Scheible&nbsp;!">Kyle Scheible</span>
+				</td>
+				<td>
+				</td>
+				<td><sup id="cite_ref-IndieWire-LadyBird_77-1" class="reference"><a href="#cite_note-IndieWire-LadyBird-77">[75]</a></sup>
+				</td></tr>
+				<tr>
+				<td><i><a href="/wiki/Hostiles_(film)" title="Hostiles (film)">Hostiles</a></i>
+				</td>
+				<td><span data-sort-value="DeJardin&nbsp;!">Pvt. Philippe DeJardin</span>
+				</td>
+				<td>
+				</td>
+				<td><sup id="cite_ref-Marotta_20-2" class="reference"><a href="#cite_note-Marotta-20">[18]</a></sup>
+				</td></tr>
+				<tr>
+				<th scope="row">2018
+				</th>
+				<td><i><a href="/wiki/Beautiful_Boy_(2018_film)" title="Beautiful Boy (2018 film)">Beautiful Boy</a></i>
+				</td>
+				<td><span data-sort-value="Sheff&nbsp;!"><a href="/wiki/Nic_Sheff" title="Nic Sheff">Nic Sheff</a></span>
+				</td>
+				<td>
+				</td>
+				<td><sup id="cite_ref-HollywoodReporter-BeautifulBoy_80-1" class="reference"><a href="#cite_note-HollywoodReporter-BeautifulBoy-80">[78]</a></sup>
+				</td></tr>
+				<tr>
+				<th scope="row" rowspan="3">2019
+				</th>
+				<td><i><span data-sort-value="Rainy&nbsp;!"><a href="/wiki/A_Rainy_Day_in_New_York" title="A Rainy Day in New York">A Rainy Day in New York</a></span></i>
+				</td>
+				<td><span data-sort-value="Welles&nbsp;!">Gatsby Welles</span>
+				</td>
+				<td>
+				</td>
+				<td><sup id="cite_ref-rainynewyork_83-1" class="reference"><a href="#cite_note-rainynewyork-83">[81]</a></sup>
+				</td></tr>
+				<tr>
+				<td><i><span data-sort-value="King&nbsp;!"><a href="/wiki/The_King_(2019_film)" title="The King (2019 film)">The King</a></span></i>
+				</td>
+				<td><span data-sort-value="Henry&nbsp;!"><a href="/wiki/Henry_V_of_England" title="Henry V of England">King Henry V</a></span>
+				</td>
+				<td>
+				</td>
+				<td><sup id="cite_ref-IndieWire-TheKing_91-1" class="reference"><a href="#cite_note-IndieWire-TheKing-91">[89]</a></sup>
+				</td></tr>
+				<tr>
+				<td><i><a href="/wiki/Little_Women_(2019_film)" title="Little Women (2019 film)">Little Women</a></i>
+				</td>
+				<td><span data-sort-value="Laurence&nbsp;!"><a href="/wiki/Theodore_%22Laurie%22_Laurence" class="mw-redirect" title="Theodore &quot;Laurie&quot; Laurence">Theodore "Laurie" Laurence</a></span>
+				</td>
+				<td>
+				</td>
+				<td><sup id="cite_ref-VF-LittleWomen_93-1" class="reference"><a href="#cite_note-VF-LittleWomen-93">[91]</a></sup>
+				</td></tr>
+				<tr>
+				<th scope="row" rowspan="4">2021
+				</th>
+				<td><i><span data-sort-value="French Dispatch, The&nbsp;!"><a href="/wiki/The_French_Dispatch" title="The French Dispatch">The French Dispatch</a></span></i>
+				</td>
+				<td>Zeffirelli B.
+				</td>
+				<td>
+				</td>
+				<td><sup id="cite_ref-Paste-FrenchDispatch_102-1" class="reference"><a href="#cite_note-Paste-FrenchDispatch-102">[100]</a></sup>
+				</td></tr>
+				<tr>
+				<td><i><a href="/wiki/Dune_(2021_film)" title="Dune (2021 film)">Dune</a></i>
+				</td>
+				<td><span data-sort-value="Atreides, Paul"><span class="vcard"><span class="fn"><a href="/wiki/Paul_Atreides" title="Paul Atreides">Paul Atreides</a></span></span></span>
+				</td>
+				<td>
+				</td>
+				<td><sup id="cite_ref-USAToday-Dune_104-1" class="reference"><a href="#cite_note-USAToday-Dune-104">[102]</a></sup>
+				</td></tr>
+				<tr>
+				<td><i><span data-sort-value="Man&nbsp;!"><a href="/wiki/A_Man_Named_Scott" title="A Man Named Scott">A Man Named Scott</a></span></i>
+				</td>
+				<td>Himself
+				</td>
+				<td>Documentary
+				</td>
+				<td><sup id="cite_ref-147" class="reference"><a href="#cite_note-147">[145]</a></sup>
+				</td></tr>
+				<tr>
+				<td><i><a href="/wiki/Don%27t_Look_Up" title="Don't Look Up">Don't Look Up</a></i>
+				</td>
+				<td>Yule
+				</td>
+				<td>
+				</td>
+				<td><sup id="cite_ref-LATimes-DontLookUp_110-1" class="reference"><a href="#cite_note-LATimes-DontLookUp-110">[108]</a></sup>
+				</td></tr>
+				<tr>
+				<th scope="row">2022
+				</th>
+				<td><i><a href="/wiki/Bones_and_All" title="Bones and All">Bones and All</a></i>
+				</td>
+				<td>Lee
+				</td>
+				<td>Also producer
+				</td>
+				<td><sup id="cite_ref-Deadline-BonesAll_112-1" class="reference"><a href="#cite_note-Deadline-BonesAll-112">[110]</a></sup>
+				</td></tr>
+				<tr>
+				<th scope="row" rowspan="2">2023
+				</th>
+				<td style="background: #FFD; vertical-align: middle; text-align: left;" class="partial table-partial"><i><a href="/wiki/Dune:_Part_Two" title="Dune: Part Two">Dune: Part Two</a></i> †
+				</td>
+				<td>Paul Atreides
+				</td>
+				<td>Post-production
+				</td>
+				<td><sup id="cite_ref-HollywoodReporter-DuneTwo_118-1" class="reference"><a href="#cite_note-HollywoodReporter-DuneTwo-118">[116]</a></sup>
+				</td></tr>
+				<tr>
+				<td style="background: #FFD; vertical-align: middle; text-align: left;" class="partial table-partial"><i><a href="/wiki/Wonka_(film)" title="Wonka (film)">Wonka</a></i> †
+				</td>
+				<td><a href="/wiki/Willy_Wonka" title="Willy Wonka">Willy Wonka</a>
+				</td>
+				<td>Post-production
+				</td>
+				<td><sup id="cite_ref-Wonka_119-1" class="reference"><a href="#cite_note-Wonka-119">[117]</a></sup>
+				</td></tr></tbody><tfoot></tfoot></table>
+			</span>
+		</div>
+		<br><br>
+		<script>
+		 var bool = true;
+			function display(e)
+			{
+				var str = e.id.split('-')[1];
+				var span = document.getElementById(str);
+				if(span.style.display == "none")
+				{
+					span.style.display = "initial";
+					bool=!bool;
+					
+				}
+				else
+				{
+					span.style.display = "none";
+					bool=!bool;
+					
+				}
+				
+			}
+		
+			function gothere(e)
+			{
+				var name = "title-"+e.innerText;
+				var index = document.getElementById(name).offsetTop;
+				window.scrollTo(0, index-100);
+			}
+			
+			function mode(e)
+			{
+				const elements = document.querySelectorAll('body *');
+				if(e.checked==true)
+				{
+					elements.forEach((element) => {
+				    element.className='dark-mode';
+					document.getElementById("image-box").style.borderColor="white !important";
+					});
+				}
+				else
+				{
+					elements.forEach((element) => {
+				    element.classList.remove('dark-mode');
+					});
+				}
+			}
+		
+		</script>
+		
+	</body>
+</html>

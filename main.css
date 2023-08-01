@@ -1,0 +1,185 @@
+* 
+{ 
+	padding: 0; 
+	margin: 0; 
+	font-family:Microsoft YaHei;
+}
+
+html, body
+{
+	height:100%;
+	width:100%;
+}
+
+.dark-mode
+{
+	background-color:black !important;
+	color:white !important;
+	border-color:white !important;
+}
+
+.light-mode
+{
+	background-color:white;
+	color:black;
+	border-color:white !important;
+}
+
+#header
+{
+	
+	position:fixed;
+	top:0;
+	height:50px;
+	width:100%;
+	background-color:black;
+}
+
+#logo-wiki
+{
+	height:50px;
+	width:50px;
+}
+
+#title-wiki
+{
+	font-family:serif;
+	position:absolute;
+	text-align:center;
+	left:55px;
+	top:15px;
+	font-size:20px;
+	color:white;
+	float:right;
+	height:50px;
+}
+
+#search-input
+{
+	position:absolute;
+	left:250px;
+	height:20px;
+	width:200px;
+	top:15px;
+	bottom:4px;
+	padding-left:5px;
+	
+}
+
+input:focus
+{
+    outline: none;
+}
+#search-button
+{
+	position:absolute;
+	top:15px;
+	left:465px;
+	height:23px;
+	width:23px;
+}
+
+#mode
+{
+	top:15px;
+	position:absolute;
+	left:1000px;
+	color:white;
+}
+
+#mode-checkbox
+{
+	
+	position:absolute;
+	top:1px;
+	height:20px;
+	width:20px;
+}
+
+#sidebar
+{
+	position:fixed;
+	top:50px;
+	padding-left:10px;
+	float:left;
+	height:100%;
+	background-color:hsl(0,0%,95%);
+	width:18%;
+}
+
+a
+{
+	text-decoration:none;
+	cursor:pointer;
+}
+
+#content
+{
+	transform-origin:0% 10%;
+	position:static;
+	top:50px;
+	line-height:200%;
+	padding-top:70px;
+	padding-left:270px;
+	padding-right:10px;
+}
+
+#title-char
+{
+	display:block;
+	margin-top:10px;
+	margin-left:10px;
+}
+
+h1
+{
+	font-family:Calibri;
+	cursor:pointer;
+}
+#image-box
+{
+	line-height:150%;
+	background-color:hsl(0,0%,96%);
+	margin-right:20px;
+	margin-left:20px;
+	padding-left:15px;
+	padding-right:15px;
+	height:720px;
+	width:26%;
+	float:right;
+	border:1px solid black;
+}
+
+#image-char
+{
+	width:100%;
+}
+
+table
+{
+	padding-top:5px;
+}
+th, td
+{
+	text-align:top;
+	text-align:left;
+	padding-top:10px;
+}
+th
+{
+	vertical-align:top;
+	padding-right:15px;
+}
+
+#table-Filmography
+{
+	border:1px solid black;
+	border-collapse:collapse;
+	padding:1px;
+}
+
+#table-Filmography th, #table-Filmography td
+{
+	padding:8px;
+	text-align:center;
+}
